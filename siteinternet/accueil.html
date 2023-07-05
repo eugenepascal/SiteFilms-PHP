@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body {
+        background-image: url('https://www.latoursurtinee.fr/wp-content/uploads/cine2.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    
+    html {
+        height: 100%;
+        margin: 0;
+    }
+    
+    .bgimg {
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        color: rgb(18, 17, 17);
+        font-family: "Courier New", Courier, monospace;
+        font-size: 25px;
+    }
+    
+    .topleft {
+        position: absolute;
+        top: 0;
+        left: 16px;
+    }
+    
+    .bottomleft {
+        position: absolute;
+        bottom: 0;
+        left: 16px;
+    }
+    
+    .middle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    hr {
+        margin: auto;
+        width: 40%;
+    }
+</style>
+
+<head>
+    <Title>FILMINFO</Title>
+    <link rel="icon" href="Images/icon.png">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="BarreMenu">
+        <ul>
+            <li><a href="accueil.html" style="color: white; text-decoration:none" class="active">Accueil</a></li>
+            <li><a href="ListFilm.php" style="color: white; text-decoration:none">Liste de films</a></li>
+            <li><a href="ListActor.php" style="color: white; text-decoration:none">Liste d'Acteurs</a></li>
+            <li><a href="Filmdescription.php" style="color: white; text-decoration:none">Description de film</a></li>
+        </ul>
+    </div>
+    <center style="margin-top: 100px;">
+        <h1 class='Titre'>BIENVENUE SUR FILMINFO</h1>
+    </center>
+
+</body>
+
+</html>
